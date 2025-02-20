@@ -1,0 +1,41 @@
+#card{
+    width: 350px;
+    height: 200px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 10px;
+
+    &:hover{
+        width: 355px;
+        height: 205px;
+        border: #F1F1F1;
+    }
+}
+#card p{
+    width: 150px;
+    height: 20px;
+    background-color: #FCFCFC;
+    font-size: 15px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+#gerarRelatorio{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #6AF130;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+    &:hover{
+        background-color: #59cc27;
+    }
+}
